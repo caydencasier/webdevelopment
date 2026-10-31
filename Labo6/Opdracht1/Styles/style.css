@@ -1,0 +1,17 @@
+/*
+.menuitem {
+display:inline-block;
+width:150px;
+}
+.menuitem > a {
+color:red;
+}
+*/
+
+.menuitem > li {
+    display:inline-block;
+    width:150px;
+}
+.menuitem > li > a {
+    color:red;
+}

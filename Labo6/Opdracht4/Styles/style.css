@@ -1,0 +1,36 @@
+/*Zet voor het body-element het font op Verdana 1.1 em, de achtergrondkleur op zilverachtig
+en de letterkleur op donkerblauw. */
+
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+}
+
+/* Definieer h1 als volgt: het font op kleine hoofdlettertjes (font-variant) en de
+achtergrondkleur op knalrood.*/
+
+h1{
+    font-variant: small-caps;
+    background-color: red;
+}
+
+/* Maak het zo dat als de muis de link raakt (a:hover), er een kadertje om de link heen komt.
+Bepaal zelf de styling van het kadertje. */
+
+a:hover{
+    margin: 10px;
+    padding:20px;
+    border: 2px dotted red;
+    background-color: azure;
+    text-decoration: underline;
+}
+
+/*Maak een klasse met de naam ‘stippeltjesrand’. Deze omgeeft een HTML element met een
+border die gestippeld is (1 px breed). Ken deze stijl toe aan een paar willekeurige elementen
+in je pagina. */
+
+.stippeltjesrand {
+    border: 1px dotted black;
+}
