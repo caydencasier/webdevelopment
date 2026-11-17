@@ -1,0 +1,32 @@
+tbody tr td:first-child,
+tbody tr td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+
+tbody tr .feestdag{
+    background-color: rgb(250,120,120);
+}
+
+.maand{
+    background-color: rgb(170,170,200);
+    color: black;
+}
+
+thead tr{
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+}
+
+td {
+    border: 2px dotted black;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table tbody tr .andereMaand{
+    background-color: grey;
+    color: lightgray;
+}

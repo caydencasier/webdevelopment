@@ -1,0 +1,111 @@
+/* Algemene pagina */
+body{
+    width: 95%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+/* Header */
+header{
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header img{
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Titels */
+h1{
+    font-size: 40px;
+}
+
+h2{
+    color: darkgreen;
+    border-bottom: 2px solid darkgreen;
+    padding-bottom: 1px;
+}
+
+h3{
+    color: darkgreen;
+}
+
+/* Secties */
+section{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Artikels */
+article{
+    margin-bottom: 30px;
+}
+
+/* Afbeeldingen */
+article img{
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+/* Links */
+a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+/* Lijsten */
+ul{
+    line-height: 1.5;
+}
+
+/* Tabel */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th{
+    background-color: darkgreen;
+    color: white;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+caption{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer a{
+    color: orange;
+}
