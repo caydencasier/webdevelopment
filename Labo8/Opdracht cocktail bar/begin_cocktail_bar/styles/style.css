@@ -1,0 +1,105 @@
+header img{
+        display: block;
+        margin: auto;
+}
+
+body {
+    width: 95%;
+    margin: 0 auto;
+    font: 1.2em Verdana, Helvetica, Arial, sans-serif;
+}
+
+
+/*linkerkant van pagina*/
+
+#content {
+    box-sizing: border-box;
+    width: 70%;
+    padding: 20px;
+    display: block;
+    float: left;
+}
+
+/*speciale text effecten/decoratie voor linkerkant*/
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+article h1{
+    color: #007e7e;
+    font-size: 150%
+}
+
+article h2{
+    font-size: 130%;
+    color: #007e7e;
+}
+
+.cd{
+    font-style: italic
+}
+
+.artist{
+    font-weight: bold;
+}
+
+/*mini vakje links*/
+
+.color{
+    background-color: #a7cece;
+    background-image: url(../images/background.gif);
+    background-position: top left ;
+    background-repeat: no-repeat;
+    border: 4px dotted black;
+    margin: 30px;
+    padding: 20px;
+}
+
+#guarantee{
+    color: #444444;
+    font-family: Times New Roman, serif;
+    font-style: italic;
+    padding-left: 50px;
+}
+
+/*Rechterkant van de pagina*/
+
+#elixirs {
+    box-sizing: border-box;
+    width: 30%;
+    border: 2px solid cadetblue;
+    padding: 10px;
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+aside a:hover{
+    background-color: brown;
+    color: black;
+}
+
+aside h2{
+    color: indianred;
+}
+
+aside {
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: 70px;
+}
+
+/*Footer van pagina*/
+
+body footer{
+    font:0.6em Verdana, Helvetica, Arial, sans-serif;
+    text-align: center;
+    clear: both;
+}
+
